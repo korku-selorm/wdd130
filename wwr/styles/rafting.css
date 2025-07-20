@@ -4,8 +4,8 @@
   --secondary-color: #2d9e98;
   --accent1-color: #4e392e;
   --accent2-color: #8fbf3f;
-  --heading-font: 'Georgia', serif;
-  --body-font: 'Roboto', sans-serif;
+  --heading-font: "Merriweather", serif;
+  --body-font: "Roboto", sans-serif;
 }
 
 /* CSS Reset */
@@ -22,7 +22,9 @@ body {
 }
 
 /* Page layout */
-header, main, footer {
+header,
+main,
+footer {
   width: 840px;
   margin: 0 auto;
 }
@@ -49,23 +51,27 @@ nav a {
 }
 
 /* Headings */
-h1, h2 {
+h1,
+h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
 h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff;
 }
 
 /* Content spacing */
-nav, p, section, article {
+nav,
+p,
+section,
+article {
   margin: 16px;
   padding: 8px;
 }
@@ -80,7 +86,6 @@ nav, p, section, article {
   width: 100%;
   height: auto;
 }
-
 
 .hero article {
   position: absolute;
