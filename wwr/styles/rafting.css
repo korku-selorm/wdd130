@@ -115,10 +115,24 @@ article {
 
 /* Footer styling */
 footer {
-  text-align: center;
   background-color: var(--secondary-color);
   color: white;
   padding: 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  margin: 0 auto;
+  text-align: center;
+  flex: 1;
+}
+
+footer .socialmedia {
+  display: flex;
+  gap: 12px;
 }
 
 footer .socialmedia a {
