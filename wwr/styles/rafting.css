@@ -353,3 +353,146 @@ hr{
   line-height: 1.6;
   color: #444;
 }
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 2rem;
+  background: var(--secondary-color);
+  color: white;
+}
+
+.cta h2 {
+  margin-bottom: 0.5rem;
+}
+
+.cta p {
+  font-size: 1.1rem;
+}
+
+.cta .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: var(--primary-color);
+  color: var(--accent1-color);
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.cta .btn:hover {
+  background: var(--accent2-color);
+  color: white;
+}
+
+/* OFFERINGS GRID */
+.offerings .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.grid-item h3 {
+  margin: 0.5rem 0;
+  font-family: var(--heading-font);
+  color: var(--accent2-color);
+}
+
+/* NEWSLETTER */
+.newsletter {
+  background: var(--accent1-color);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.newsletter form {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.newsletter input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 0.5rem 1rem;
+  background: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background: var(--secondary-color);
+}
+
+
+
+/* Trip Descriptions */
+.trip-descriptions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.trip {
+  background: var(--accent1-color);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  color: #fff;
+}
+
+.trip img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.trip h3 {
+  margin-top: 0.5rem;
+  color: var(--primary-color);
+}
+
+/* Trips Table */
+.trip-table {
+  padding: 2rem;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+  padding: 0.8rem;
+  border: 1px solid var(--accent1-color);
+  text-align: center;
+}
+
+.trip-table th {
+  background: var(--primary-color);
+  color: var(--accent1-color);
+}
+
+.trip-table tr:nth-child(even) {
+  background: var(--secondary-color);
+  color: #fff;
+}
